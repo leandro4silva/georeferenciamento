@@ -30,11 +30,6 @@ dotnet ef database update \
     -v
 ```
 
-### Executar a Aplicação
-```bash
-dotnet run --project ./src/Georeferenciamento.Api/
-```
-
 ## 🌐 Swagger/OpenAPI
 Acesse a documentação da API em:
 ```
