@@ -24,10 +24,7 @@ src/
 
 ### Executar Migrations
 ```bash
-dotnet ef database update \
-    -s ./src/Georeferenciamento.Api/ \
-    -p ./src/Georeferenciamento.Infra/ \
-    -v
+dotnet ef database update -s .\src\Georeferenciamento.Api\ -p .\src\Georeferenciamento.Infra\ -v
 ```
 
 ## 🌐 Swagger/OpenAPI
